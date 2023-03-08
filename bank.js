@@ -8,6 +8,12 @@ class Bank {
         this.name = name
     }
     
+    //creating about method that will gives about
+    about(){
+        console.log(`Name of Holder:${this.name} and balance:${this.balance}`)
+    } 
+
+   
 
 }
 
